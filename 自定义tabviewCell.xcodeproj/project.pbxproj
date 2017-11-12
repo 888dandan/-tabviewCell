@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3B229071FB7E21600816D1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B229061FB7E21600816D1C /* main.m */; };
+		F3B2290A1FB7E21600816D1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B229091FB7E21600816D1C /* AppDelegate.m */; };
+		F3B2290D1FB7E21600816D1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B2290C1FB7E21600816D1C /* ViewController.m */; };
+		F3B229101FB7E21600816D1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B2290E1FB7E21600816D1C /* Main.storyboard */; };
+		F3B229121FB7E21600816D1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B229111FB7E21600816D1C /* Assets.xcassets */; };
+		F3B229151FB7E21600816D1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B229131FB7E21600816D1C /* LaunchScreen.storyboard */; };
+		F3B229201FB7E21700816D1C /* ___tabviewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B2291F1FB7E21700816D1C /* ___tabviewCellTests.m */; };
+		F3B2292B1FB7E21700816D1C /* ___tabviewCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B2292A1FB7E21700816D1C /* ___tabviewCellUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3B2291C1FB7E21700816D1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3B228FA1FB7E21600816D1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3B229011FB7E21600816D1C;
+			remoteInfo = "自定义tabviewCell";
+		};
+		F3B229271FB7E21700816D1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3B228FA1FB7E21600816D1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3B229011FB7E21600816D1C;
+			remoteInfo = "自定义tabviewCell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3B229021FB7E21600816D1C /* 自定义tabviewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义tabviewCell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B229061FB7E21600816D1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3B229081FB7E21600816D1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3B229091FB7E21600816D1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3B2290B1FB7E21600816D1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3B2290C1FB7E21600816D1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3B2290F1FB7E21600816D1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3B229111FB7E21600816D1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3B229141FB7E21600816D1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3B229161FB7E21600816D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B2291B1FB7E21700816D1C /* 自定义tabviewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义tabviewCellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B2291F1FB7E21700816D1C /* ___tabviewCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___tabviewCellTests.m"; sourceTree = "<group>"; };
+		F3B229211FB7E21700816D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B229261FB7E21700816D1C /* 自定义tabviewCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义tabviewCellUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B2292A1FB7E21700816D1C /* ___tabviewCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___tabviewCellUITests.m"; sourceTree = "<group>"; };
+		F3B2292C1FB7E21700816D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3B228FF1FB7E21600816D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B229181FB7E21700816D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B229231FB7E21700816D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3B228F91FB7E21600816D1C = {
+			isa = PBXGroup;
+			children = (
+				F3B229041FB7E21600816D1C /* 自定义tabviewCell */,
+				F3B2291E1FB7E21700816D1C /* 自定义tabviewCellTests */,
+				F3B229291FB7E21700816D1C /* 自定义tabviewCellUITests */,
+				F3B229031FB7E21600816D1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B229031FB7E21600816D1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B229021FB7E21600816D1C /* 自定义tabviewCell.app */,
+				F3B2291B1FB7E21700816D1C /* 自定义tabviewCellTests.xctest */,
+				F3B229261FB7E21700816D1C /* 自定义tabviewCellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3B229041FB7E21600816D1C /* 自定义tabviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F3B229081FB7E21600816D1C /* AppDelegate.h */,
+				F3B229091FB7E21600816D1C /* AppDelegate.m */,
+				F3B2290B1FB7E21600816D1C /* ViewController.h */,
+				F3B2290C1FB7E21600816D1C /* ViewController.m */,
+				F3B2290E1FB7E21600816D1C /* Main.storyboard */,
+				F3B229111FB7E21600816D1C /* Assets.xcassets */,
+				F3B229131FB7E21600816D1C /* LaunchScreen.storyboard */,
+				F3B229161FB7E21600816D1C /* Info.plist */,
+				F3B229051FB7E21600816D1C /* Supporting Files */,
+			);
+			path = "自定义tabviewCell";
+			sourceTree = "<group>";
+		};
+		F3B229051FB7E21600816D1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3B229061FB7E21600816D1C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3B2291E1FB7E21700816D1C /* 自定义tabviewCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3B2291F1FB7E21700816D1C /* ___tabviewCellTests.m */,
+				F3B229211FB7E21700816D1C /* Info.plist */,
+			);
+			path = "自定义tabviewCellTests";
+			sourceTree = "<group>";
+		};
+		F3B229291FB7E21700816D1C /* 自定义tabviewCellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3B2292A1FB7E21700816D1C /* ___tabviewCellUITests.m */,
+				F3B2292C1FB7E21700816D1C /* Info.plist */,
+			);
+			path = "自定义tabviewCellUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3B229011FB7E21600816D1C /* 自定义tabviewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B2292F1FB7E21700816D1C /* Build configuration list for PBXNativeTarget "自定义tabviewCell" */;
+			buildPhases = (
+				F3B228FE1FB7E21600816D1C /* Sources */,
+				F3B228FF1FB7E21600816D1C /* Frameworks */,
+				F3B229001FB7E21600816D1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义tabviewCell";
+			productName = "自定义tabviewCell";
+			productReference = F3B229021FB7E21600816D1C /* 自定义tabviewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3B2291A1FB7E21700816D1C /* 自定义tabviewCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B229321FB7E21700816D1C /* Build configuration list for PBXNativeTarget "自定义tabviewCellTests" */;
+			buildPhases = (
+				F3B229171FB7E21700816D1C /* Sources */,
+				F3B229181FB7E21700816D1C /* Frameworks */,
+				F3B229191FB7E21700816D1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3B2291D1FB7E21700816D1C /* PBXTargetDependency */,
+			);
+			name = "自定义tabviewCellTests";
+			productName = "自定义tabviewCellTests";
+			productReference = F3B2291B1FB7E21700816D1C /* 自定义tabviewCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3B229251FB7E21700816D1C /* 自定义tabviewCellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B229351FB7E21700816D1C /* Build configuration list for PBXNativeTarget "自定义tabviewCellUITests" */;
+			buildPhases = (
+				F3B229221FB7E21700816D1C /* Sources */,
+				F3B229231FB7E21700816D1C /* Frameworks */,
+				F3B229241FB7E21700816D1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3B229281FB7E21700816D1C /* PBXTargetDependency */,
+			);
+			name = "自定义tabviewCellUITests";
+			productName = "自定义tabviewCellUITests";
+			productReference = F3B229261FB7E21700816D1C /* 自定义tabviewCellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3B228FA1FB7E21600816D1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "曹轩";
+				TargetAttributes = {
+					F3B229011FB7E21600816D1C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					F3B2291A1FB7E21700816D1C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3B229011FB7E21600816D1C;
+					};
+					F3B229251FB7E21700816D1C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3B229011FB7E21600816D1C;
+					};
+				};
+			};
+			buildConfigurationList = F3B228FD1FB7E21600816D1C /* Build configuration list for PBXProject "自定义tabviewCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3B228F91FB7E21600816D1C;
+			productRefGroup = F3B229031FB7E21600816D1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3B229011FB7E21600816D1C /* 自定义tabviewCell */,
+				F3B2291A1FB7E21700816D1C /* 自定义tabviewCellTests */,
+				F3B229251FB7E21700816D1C /* 自定义tabviewCellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3B229001FB7E21600816D1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B229151FB7E21600816D1C /* LaunchScreen.storyboard in Resources */,
+				F3B229121FB7E21600816D1C /* Assets.xcassets in Resources */,
+				F3B229101FB7E21600816D1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B229191FB7E21700816D1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B229241FB7E21700816D1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3B228FE1FB7E21600816D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B2290D1FB7E21600816D1C /* ViewController.m in Sources */,
+				F3B2290A1FB7E21600816D1C /* AppDelegate.m in Sources */,
+				F3B229071FB7E21600816D1C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B229171FB7E21700816D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B229201FB7E21700816D1C /* ___tabviewCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B229221FB7E21700816D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B2292B1FB7E21700816D1C /* ___tabviewCellUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3B2291D1FB7E21700816D1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3B229011FB7E21600816D1C /* 自定义tabviewCell */;
+			targetProxy = F3B2291C1FB7E21700816D1C /* PBXContainerItemProxy */;
+		};
+		F3B229281FB7E21700816D1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3B229011FB7E21600816D1C /* 自定义tabviewCell */;
+			targetProxy = F3B229271FB7E21700816D1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3B2290E1FB7E21600816D1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B2290F1FB7E21600816D1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3B229131FB7E21600816D1C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B229141FB7E21600816D1C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3B2292D1FB7E21700816D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3B2292E1FB7E21700816D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3B229301FB7E21700816D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义tabviewCell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gangwan.---tabviewCell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3B229311FB7E21700816D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义tabviewCell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gangwan.---tabviewCell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3B229331FB7E21700816D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自定义tabviewCellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gangwan.---tabviewCellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义tabviewCell.app/自定义tabviewCell";
+			};
+			name = Debug;
+		};
+		F3B229341FB7E21700816D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自定义tabviewCellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gangwan.---tabviewCellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义tabviewCell.app/自定义tabviewCell";
+			};
+			name = Release;
+		};
+		F3B229361FB7E21700816D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义tabviewCellUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gangwan.---tabviewCellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义tabviewCell";
+			};
+			name = Debug;
+		};
+		F3B229371FB7E21700816D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义tabviewCellUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gangwan.---tabviewCellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义tabviewCell";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3B228FD1FB7E21600816D1C /* Build configuration list for PBXProject "自定义tabviewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B2292D1FB7E21700816D1C /* Debug */,
+				F3B2292E1FB7E21700816D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B2292F1FB7E21700816D1C /* Build configuration list for PBXNativeTarget "自定义tabviewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B229301FB7E21700816D1C /* Debug */,
+				F3B229311FB7E21700816D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3B229321FB7E21700816D1C /* Build configuration list for PBXNativeTarget "自定义tabviewCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B229331FB7E21700816D1C /* Debug */,
+				F3B229341FB7E21700816D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3B229351FB7E21700816D1C /* Build configuration list for PBXNativeTarget "自定义tabviewCellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B229361FB7E21700816D1C /* Debug */,
+				F3B229371FB7E21700816D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3B228FA1FB7E21600816D1C /* Project object */;
+}

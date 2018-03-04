@@ -21,6 +21,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self addSouce];
@@ -29,7 +30,7 @@
     self.tableview.dataSource=self;
     self.tableview.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.view addSubview:self.tableview];
-    
+    NSLog(@"更新了");
 }
 
 
